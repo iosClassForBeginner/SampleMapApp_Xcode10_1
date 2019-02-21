@@ -35,6 +35,7 @@ class ViewController: UIViewController {
             // マップにピンを刺す
             let annotation = MKPointAnnotation()
             annotation.coordinate = loc
+            annotation.title = "ナンバコワーキング"
             mapView?.addAnnotation(annotation)
         }
         
